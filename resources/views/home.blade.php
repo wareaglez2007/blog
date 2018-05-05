@@ -1,9 +1,14 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
 <ul>
 @foreach($names as $v => $name)
 <li>Name: {{$v}}
 <ol>
-	<li>Age: {{$name['Age']}}</li>
+	<li>Age: {{$name['Age']}} @if($name['Age'] >= (int)30) olds @else  old @endif</li>
 </ol>
 </li>
 
@@ -15,3 +20,10 @@
 <li>Phone#: {{$name['phone']}}</li>
 @endforeach
 </ul>
+<!-asasas-!>
+
+</body>
+</html>
+
+
+

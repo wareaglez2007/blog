@@ -28,7 +28,7 @@ Route::get('/home', function(){
 			"phone" => "818-723-3190"
 		],
 				"Ro" => [
-			"Age" => "33",
+			"Age" => "3",
 			"DOB" => "09/07/1984",
 			"Address" => "16008 Celtic Street",
 			"City" => "Granada Hills",
